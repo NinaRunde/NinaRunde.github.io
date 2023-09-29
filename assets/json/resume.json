@@ -4,29 +4,30 @@
     "image": "",
     "email": "runde@lics.rwth-aachen.de",
     "url": "https://ninarunde.github.io",
-    "summary": "Currently doing a PhD at RWTH Aachen",
     "languages": "German, English"
   },
   "education": [
     {
       "institution": "RWTH Aachen University",
       "url": "https://www.rwth-aachen.de",
-      "area": "Logic and Theory of Discrete Systems",
       "studyType": "PhD Student",
       "startDate": "2023-03",
       "score": "",
-      "highlights": [
-        "(...)"
+      "courses": [
+        "supervised by Prof Martin Grohe",
+        "see teaching"
       ]
     },
     {
       "institution": "RWTH Aachen University",
       "url": "https://www.rwth-aachen.de",
-      "studyType": "Master in Computer Science",
+      "studyType": "MSc Computer Science",
       "startDate": "2019",
       "endDate": "2022",
-      "highlights": [
-        "with distinction"
+      "courses": [
+        "with distinction",
+        "master thesis: the parameterized complexity of learning MSO properties",
+        "colloquium in data science"
       ]
     },
     {
@@ -39,7 +40,7 @@
     {
       "institution": "TU Dortmund",
       "url": "https://www.tu-dortmund.de/",
-      "studyType": "Bachelor in Computer Science",
+      "studyType": "BSc Computer Science",
       "startDate": "2014",
       "endDate": "2019"
     }
@@ -47,11 +48,10 @@
   "work": [
     {
       "name": "VEDA",
-      "position": "Student in Full-stack Web Development",
+      "position": "Student Job in Full-stack Web Development",
       "url": "https://www.veda.net/",
       "startDate": "2019-08",
-      "endDate": "2020-03",
-      "summary": "Working in a team with other students (...)"
+      "endDate": "2020-03"
     },
     {
       "name": "RWTH Aachen, TU Dortmund",
