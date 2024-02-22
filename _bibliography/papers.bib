@@ -20,9 +20,11 @@ We show that this problem yields a natural example of an $\mathsf{NP}^{#\mathsf{
 
 
 @misc{vanbergerem2023parameterized,
-      title={On the Parameterized Complexity of Learning Monadic Second-Order Formulas}, 
+      title={The Parameterized Complexity of Learning Monadic Second-Order Logic}, 
       author={Steffen van Bergerem and Martin Grohe and Nina Runde},
-      abstract={Within the model-theoretic framework for supervised learning introduced by Grohe and Turán (TOCS 2004), we study the parameterized complexity of learning concepts definable in monadic second-order logic (MSO). We show that the problem of learning a consistent MSO-formula is fixed-parameter tractable on structures of bounded tree-width and on graphs of bounded clique-width in the 1-dimensional case, that is, if the instances are single vertices (and not tuples of vertices). This generalizes previous results on strings and on trees. Moreover, in the agnostic PAC-learning setting, we show that the result also holds in higher dimensions. Finally, via a reduction to the MSO-model-checking problem, we show that learning a consistent MSO-formula is para-NP-hard on general structures.},
+      abstract={Within the model-theoretic framework for supervised learning introduced by Grohe and Turán (TOCS 2004), we study the parameterized complexity of learning concepts definable in monadic second-order logic (MSO).
+We show that the problem of learning an MSO-definable concept from a training sequence of labeled examples is fixed-parameter tractable on graphs of bounded clique-width, and that it is hard for the parameterized complexity class para-NP on general graphs.
+It turns out that an important distinction to be made is between 1-dimensional and higher-dimensional concepts, where the instances of a k-dimensional concept are k-tuples of vertices of a graph. The tractability results we obtain for the 1-dimensional case are stronger and more general, and they are much easier to prove. In particular, our learning algorithm in the higher-dimensional case is only fixed-parameter tractable in the size of the graph, but not in the size of the training sequence, and we give a hardness result showing that this is optimal. By comparison, in the 1-dimensional case, we obtain an algorithm that is fixed-parameter tractable in both.},
       year={2023},
       arxiv={2309.10489},
       eprint={2309.10489},
